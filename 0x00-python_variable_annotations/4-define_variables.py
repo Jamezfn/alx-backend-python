@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-'''Task 4's module.
-'''
-
+"""
+Define variables
+"""
 
 a: int = 1
 pi: float = 3.14

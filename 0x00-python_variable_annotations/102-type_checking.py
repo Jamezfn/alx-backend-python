@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-'''Task 12's module.
-'''
-from typing import List, Tuple
-
+"""
+Type Checking
+"""
+from typing import Tuple,  List
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    '''Creates multiple copies of items in a tuple.
-    '''
+    """
+    Creates multiple copies of items in a tuple
+    """
     zoomed_in: List = [
         item for item in lst
-        for i in range(int(factor))
+        for i in range(factor)
     ]
     return zoomed_in
 

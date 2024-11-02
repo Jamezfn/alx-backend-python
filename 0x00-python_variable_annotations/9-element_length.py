@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-'''Task 9's module.
-'''
-from typing import Iterable, List, Sequence, Tuple
-
+"""
+Duck type an iterable object
+"""
+from typing import Iterable, Sequence, List, Tuple
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
-    '''Computes the length of a list of sequences.
-    '''
+    """
+    Computes the lengths of the sequence
+    """
     return [(i, len(i)) for i in lst]
